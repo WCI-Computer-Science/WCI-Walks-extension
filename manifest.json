@@ -18,5 +18,6 @@
       "48": "images/WCI_Icon_48.png",
       "128": "images/WCI_Icon_128.png"
     },
+    "web_accessible_resources": ["https://raw.githubusercontent.com/WCI-Computer-Science/WCI-Walks/main/application/static/btn_google_signin_light_normal.png"],
     "manifest_version": 2
   }
