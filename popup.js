@@ -21,7 +21,7 @@ window.onload = function(element) {
                 console.log(xmlHttp.responseText);
             }
         }
-        xmlHttp.open("GET", "https://SuperJudge.tristanolenewa1.repl.co/", true);
+        xmlHttp.open("POST", "https://wciwalks.herokuapp.com/users/", true);
         xmlHttp.send("distance=".concat(document.getElementById('distance').value).concat("&submit=Submit"));
         console.log(toString(document.getElementById('distance').value.toString()));
         console.log(document.getElementById('distance').value);
