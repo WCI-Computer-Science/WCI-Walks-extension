@@ -1,0 +1,22 @@
+{
+    "name": "WCI Walks",
+    "version": "1.0",
+    "description": "Record how far you have walked and compete with your friends!",
+    "permissions": ["declarativeContent", "cookies", "https://wciwalks.herokuapp.com/"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/WCI_Icon_16.png",
+        "32": "images/WCI_Icon_32.png",
+        "48": "images/WCI_Icon_48.png",
+        "128": "images/WCI_Icon_128.png"
+      }
+    },
+    "icons": {
+      "16": "images/WCI_Icon_16.png",
+      "32": "images/WCI_Icon_32.png",
+      "48": "images/WCI_Icon_48.png",
+      "128": "images/WCI_Icon_128.png"
+    },
+    "manifest_version": 2
+  }
