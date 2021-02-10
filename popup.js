@@ -15,18 +15,9 @@ window.onload = function(element) {
     let errorDiv = document.getElementById('errordiv');
     document.getElementById('submitdistance').addEventListener("click", async () => {
         var xmlHttp = new XMLHttpRequest();
-        xmlHttp.onreadystatechange = function() { 
-            if (xmlHttp.readyState == 4) {
-                console.log(xmlHttp.status);
-                console.log(xmlHttp.responseText);
-            }
-        }
         xmlHttp.open("POST", "https://wciwalks.herokuapp.com/users/", true);
+        xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
         xmlHttp.send("distance=".concat(document.getElementById('distance').value).concat("&submit=Submit"));
-        console.log(toString(document.getElementById('distance').value.toString()));
-        console.log(document.getElementById('distance').value);
-        console.log(toString(document.getElementById('distance').value));
-        console.log(document.getElementById('distance'));
     });
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() { 
