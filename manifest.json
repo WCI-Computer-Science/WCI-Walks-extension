@@ -1,6 +1,6 @@
 {
     "name": "WCI Walks",
-    "version": "1.0",
+    "version": "1.1.0",
     "description": "Record how far you have walked and compete with your friends!",
     "permissions": ["declarativeContent", "cookies", "https://wciwalks.herokuapp.com/", "storage", "https://SuperJudge.tristanolenewa1.repl.co/"],
     "browser_action": {
