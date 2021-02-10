@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <iframe width="810px" height="810px" frameBorder="0" src="https://wciwalks.herokuapp.com/users/"></iframe>
+  <head>
+    <script src="popup.js"></script>
+    <style>
+      button {
+        height: 30px;
+        width: 30px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div id="loadingdiv">
+      Loading...
+    </div>
+    <div id="logindiv" hidden>
+      Login in first
+    </div>
+    <div id="loggedindiv" hidden>
+      Logged in
+    </div>
+    <div id="errordiv" hidden>
+      Oops! Something went wrong. Please try again later
+    </div>
   </body>
 </html>
