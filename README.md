@@ -1,5 +1,5 @@
 # Not supported!
-This project has been abandoned, as WCI Walks now takes data from Google Fit, so there is no need for an app/extension.
+This project has been abandoned (and archived), as WCI Walks now takes data from Google Fit, so there is no need for an app/extension.
 
 # Extension for WCI Walks
 This is the very simple extension that allows WCI Walks to be opened as an extension
